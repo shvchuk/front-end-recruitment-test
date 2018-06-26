@@ -1,0 +1,52 @@
+// #checkout * {
+//   font-family: "Lato", sans-serif;
+// }
+
+#checkout {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+#checkout .mdl-card > h5 {
+  margin-left: 1.5em;
+  padding-left: 0;
+}
+
+#checkout .mdl-card.mdl-cell.mdl-cell--6-col {
+  height: 10vh !important;
+}
+
+#checkout .mdl-textfield {
+  margin-left: 1.5em;
+}
+
+#checkout .checkout-form .personal-info > h4 {
+  // font-size: 1em;
+  // font-stretch: expanded;
+  // font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+#checkout .checkout-form .payments-details > h4 {
+  // font-size: 1em;
+  // font-stretch: expanded;
+  // font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+#ol-one {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  min-height: 3em;
+
+  color: #f5f5f5;
+  background-color: black;
+  margin-right: 0.5em;
+  border: 3px;
+  border-radius: 50%;
+}

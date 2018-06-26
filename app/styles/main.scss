@@ -19,8 +19,13 @@ Note: any .css or .scss files included in the 'styles' directory
 will be correctly compiled during `gulp serve` and `gulp`
  */
 
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+@import "src/material-design-lite";
+@import "./checkout";
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+html,
+body {
+  font-family: "Roboto", "Helvetica", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -87,7 +92,7 @@ html, body {
   color: inherit;
 }
 .mdl-demo .mdl-card__actions a {
-  color: #00BCD4;
+  color: #00bcd4;
   margin: 0;
 }
 .mdl-demo .mdl-card__actions a:hover,
@@ -115,7 +120,7 @@ html, body {
 .mdl-demo #features section.section--center {
   max-width: 620px;
 }
-.mdl-demo section > header{
+.mdl-demo section > header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +157,10 @@ html, body {
 .mdl-demo section .section__text a {
   text-decoration: none;
 }
-.mdl-demo section .section__circle-container > .section__circle-container__circle {
+.mdl-demo
+  section
+  .section__circle-container
+  > .section__circle-container__circle {
   width: 64px;
   height: 64px;
   border-radius: 32px;
@@ -175,7 +183,7 @@ html, body {
   margin: 0 -8px -8px -8px;
 }
 .mdl-demo section.section--center .section__text:not(:last-child) {
-  border-bottom: 1px solid rgba(0,0,0,.13);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
 .mdl-demo .mdl-card .mdl-card__supporting-text > h3:first-child {
   margin-bottom: 24px;
@@ -186,11 +194,12 @@ html, body {
 .mdl-demo #features section {
   margin-bottom: 72px;
 }
-.mdl-demo #features h4, #features h5 {
+.mdl-demo #features h4,
+#features h5 {
   margin-bottom: 16px;
 }
 .mdl-demo .toc {
-  border-left: 4px solid #C1EEF4;
+  border-left: 4px solid #c1eef4;
   margin: 24px;
   padding: 0;
   padding-left: 8px;
@@ -202,7 +211,7 @@ html, body {
   margin-top: 0;
 }
 .mdl-demo .toc a {
-  color: #4DD0E1;
+  color: #4dd0e1;
   text-decoration: none;
   font-size: 16px;
   line-height: 28px;
